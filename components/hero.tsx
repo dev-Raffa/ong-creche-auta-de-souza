@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { Users, Clock, MapPin, Heart } from "lucide-react";
 import { Card } from "@/components/ui/card";

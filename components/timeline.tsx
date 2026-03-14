@@ -1,5 +1,3 @@
-"use client";
-
 import { Sparkles, Building, Award, Heart } from "lucide-react";
 
 const timelineEvents = [
