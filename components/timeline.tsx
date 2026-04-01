@@ -5,7 +5,7 @@ const timelineEvents = [
     year: "2009",
     title: "O Início",
     description:
-      "Fundação da Creche Auta de Souza com o sonho de transformar vidas através da educação.",
+      "Fundação da Associação de Beneficência Auta de Souza com o sonho de transformar vidas através da educação.",
     icon: Sparkles,
     color: "bg-teal",
   },

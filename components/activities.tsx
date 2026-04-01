@@ -3,37 +3,37 @@ import { Card } from "@/components/ui/card";
 
 const activities = [
   {
-    image: "/images/activity-1.jpg",
+    image: "/images/artes-e-criatividade.jpeg",
     title: "Artes e Criatividade",
     date: "Março 2024",
     description: "Oficina de pintura e expressão artística",
   },
   {
-    image: "/images/activity-2.jpg",
+    image: "/images/brincadeiras-ao-ar-livre.jpeg",
     title: "Brincadeiras ao Ar Livre",
     date: "Fevereiro 2024",
     description: "Momentos de lazer no parquinho",
   },
   {
-    image: "/images/activity-3.jpg",
-    title: "Hora da Leitura",
+    image: "/images/contato-com-a-natureza.jpeg",
+    title: "Contato com a Natureza",
     date: "Janeiro 2024",
-    description: "Contação de histórias e imaginação",
+    description: "Explorando o ambiente natural e desenvolvendo consciência ecológica",
   },
   {
-    image: "/images/activity-4.jpg",
-    title: "Musicalização",
+    image: "/images/descobrindo-o-mundo.jpeg",
+    title: "Descobrindo o Mundo",
     date: "Dezembro 2023",
-    description: "Descobrindo o mundo através da música",
+    description: "Descobertas e aprendizados sobre a natureza",
   },
   {
-    image: "/images/activity-5.jpg",
+    image: "/images/alimentacao-saudavel.jpeg",
     title: "Alimentação Saudável",
     date: "Novembro 2023",
     description: "Aprendendo sobre nutrição",
   },
   {
-    image: "/images/activity-6.jpg",
+    image: "/images/desenvolvimento-motor.jpeg",
     title: "Desenvolvimento Motor",
     date: "Outubro 2023",
     description: "Brincadeiras educativas",
