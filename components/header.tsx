@@ -72,13 +72,15 @@ export function Header() {
               </a>
             ))}
             <Button
-              className={`rounded-full transition-all ${
+              className={`rounded-sm transition-all ${
                 isScrolled
                   ? "bg-teal text-white hover:bg-teal-dark"
                   : "bg-yellow text-foreground hover:bg-yellow-dark"
               }`}
             >
-              Como Ajudar
+              <a href="https://wa.me/551639026088">
+              Como ajudar
+            </a>
             </Button>
           </nav>
 

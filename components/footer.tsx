@@ -22,18 +22,18 @@ export function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="mt-1 h-5 w-5 shrink-0 text-teal-light" />
                 <p className="text-sm text-white/80">
-                  Rua Exemplo, 123 - Jardim Marchesi
+                  Avenida dos Andradas, 850 - Jardim Marchesi
                   <br />
                   Ribeirão Preto - SP, 14000-000
                 </p>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-teal-light" />
-                <p className="text-sm text-white/80">(16) 1234-5678</p>
+                <p className="text-sm text-white/80">(16) 3902-6088</p>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-teal-light" />
-                <p className="text-sm text-white/80">contato@crecheautadesouza.org.br</p>
+                <p className="text-sm text-white/80">crecheautadesouza@gmail.com</p>
               </div>
             </div>
 
@@ -57,27 +57,17 @@ export function Footer() {
           {/* Column 2: Location Map */}
           <div>
             <h3 className="mb-6 font-sans text-lg font-bold">Localização</h3>
-            <div className="aspect-video overflow-hidden rounded-xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14859.5!2d-47.8358!3d-21.1775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bf5a5b5b5b5b%3A0x5b5b5b5b5b5b5b5b!2sJardim%20Marchesi%2C%20Ribeir%C3%A3o%20Preto%20-%20SP!5e0!3m2!1spt-BR!2sbr"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
+            <div className="aspect-square overflow-hidden rounded-xl">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000.1419173914575!2d-47.83409553040005!3d-21.20581469878051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bf00726973fd%3A0xdfaa44d337faa1fc!2sCreche%20Auta%20de%20Souza!5e1!3m2!1spt-BR!2sbr!4v1775046983654!5m2!1spt-BR!2sbr" 
+                width="600" 
+                height="450" 
+                style={{border:0}} 
+                allowFullScreen 
+                loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localização da Creche Auta de Souza"
-                className="h-full w-full"
               />
             </div>
-            <a 
-              href="https://www.google.com/maps/search/Jardim+Marchesi+Ribeirão+Preto+SP"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-3 block text-center text-xs text-white/60 transition-colors hover:text-teal-light"
-            >
-              Abrir no Google Maps
-            </a>
           </div>
 
           {/* Column 3: About Auta de Souza */}

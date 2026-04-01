@@ -7,7 +7,7 @@ const documents = [
     icon: FileText,
     title: "Planos de Trabalho",
     description: "Planejamento anual e metas educacionais",
-    year: "2024",
+    year: "2026",
     color: "bg-teal-light text-teal-dark",
     iconBg: "bg-teal",
   },
@@ -15,7 +15,7 @@ const documents = [
     icon: PieChart,
     title: "Prestação de Contas",
     description: "Relatórios financeiros e aplicação de recursos",
-    year: "2024",
+    year: "2026",
     color: "bg-yellow-light text-yellow-dark",
     iconBg: "bg-yellow",
   },
@@ -31,7 +31,7 @@ const documents = [
     icon: BarChart3,
     title: "Demonstrações Financeiras",
     description: "Balanços e demonstrativos contábeis",
-    year: "2024",
+    year: "2025",
     color: "bg-teal-light text-teal-dark",
     iconBg: "bg-teal",
   },
@@ -124,9 +124,9 @@ export function Transparency() {
                 Entre em contato conosco para solicitar documentos específicos ou esclarecer dúvidas sobre nossa gestão.
               </p>
             </div>
-            <Button className="shrink-0 bg-teal hover:bg-teal-dark">
+            <a href="https://wa.me/551639026088" className="shrink-0 bg-teal hover:bg-teal-dark py-2 px-4 rounded-sm text-sm font-semibold text-white transition-colors">
               Fale Conosco
-            </Button>
+            </a>
           </div>
         </div>
       </div>
